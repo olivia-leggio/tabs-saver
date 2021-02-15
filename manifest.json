@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Tabs Saver",
+    "version": "1.0",
+
+    "description": "Saves all open tabs from to reopen later",
+
+    "icons": {
+        "48": "icons/tabs-48.png",
+        "96": "icons/tabs-96.png"
+      },
+
+    "background" : {
+        "scripts": ["tabs-saver.js"]
+    },
+
+    "permissions": ["tabs"]
+}
